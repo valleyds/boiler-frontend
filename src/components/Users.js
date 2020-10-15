@@ -8,7 +8,7 @@ export default class UserList extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`http://localhost:5000`)
+        axios.get(`${process.env.REACT_APP_DJM_BACKEND}`)
       .then(res => {
         const users = res.data.users;
         this.setState({ users });
