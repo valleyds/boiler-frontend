@@ -1,38 +1,68 @@
-.App {
+/* Header/Footer Blocks */
+.header, .footer {
+  background: #2c3e50;
+}
+/* Navbar */
+
+/* Green Blocks */
+.hero, .experience, .interests {
+  background: #18bc9c;
+  color: #fff;
+}
+.hero h1,
+.experience h2,
+.interests h2 {
+  color: #fff;
+}
+
+/* White Blocks */
+.intro h2 {
+  color: #2c3e50;
+}
+.intro {
+  background: #fff;
+}
+
+/* Generic */
+h1, h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.hero {
+  padding-bottom: 28px;
+}
+.set1 .brand, .set1 .navbar-light .navbar-nav .nav-link  {
+  color: #fff
+}
+.intro, .experience, .interests, .contact {
+  padding-top: 21px;
+  padding-bottom: 28px;
+}
+.header, .footer {
+  color: #fff;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer {
+  padding-top: 28px;
+  padding-bottom: 28px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero {
+  padding-top: 28px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero a:hover {
+  color: #2c3e50;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero img {
+  width: 300px;
+  border: 7px solid #fff;
 }
